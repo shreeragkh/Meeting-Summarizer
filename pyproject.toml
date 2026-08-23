@@ -1,0 +1,16 @@
+[project]
+name = "meeting-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ffmpeg>=1.4",
+    "moviepy>=2.2.1",
+    "openai-whisper>=20250625",
+    "streamlit>=1.62.0",
+    "torch>=2.13.0",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.28.0",
+    "transformers>=5.15.1",
+]
