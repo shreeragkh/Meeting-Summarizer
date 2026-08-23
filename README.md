@@ -150,23 +150,6 @@ CREATE TABLE IF NOT EXISTS meetings (
 
 ---
 
-## 🌐 Deployment Guide (e.g. Render)
-
-To deploy on platforms like [Render](https://render.com/):
-
-1. **System Packages**: `packages.txt` lists `ffmpeg`, ensuring the OS-level binary is installed in the container environment.
-2. **Build Command**: Set the build command to use `render-build.sh`:
-   ```bash
-   chmod +x render-build.sh && ./render-build.sh
-   ```
-3. **Start Command**:
-   ```bash
-   streamlit run main.py --server.port $PORT --server.address 0.0.0.0
-   ```
-4. **Environment Variables**: Add `OPENAI_API_KEY` and `DATABASE_URL` in the hosting dashboard settings.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](file:///home/shreerag/Desktop/shreeragkh/Meeting-Summarizer/LICENSE) file for details.
