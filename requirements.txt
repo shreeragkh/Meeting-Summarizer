@@ -1,8 +1,5 @@
 ffmpeg
-torch
-torchvision
-torchaudio
-openai-whisper
-transformers
-moviepy
 streamlit
+openai
+psycopg2-binary
+python-dotenv
