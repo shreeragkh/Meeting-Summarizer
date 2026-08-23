@@ -6,6 +6,13 @@ Built with **Streamlit**, **OpenAI (Whisper & GPT-4o-mini)**, **MoviePy**, and *
 
 ---
 
+## 🌐 Live Demo
+
+You can try and connect to this project live online using the following link:  
+🔗 **[Meeting Summarizer Web App](https://meeting-summarizer-v1tu.onrender.com/)**
+
+---
+
 ## ✨ Features
 
 - 🎙️ **Audio & Video Support**: Upload audio files (`.mp3`, `.wav`, `.m4a`) or video recordings (`.mp4`, `.mov`, `.mkv`, `.avi`, `.webm`).
